@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    background-image: url(img/skynews-coffee-study-health_6201422.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    position: static;
+
+}
+
+
+.first {
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(#000);
+}
+
+nav {
+    display: flex;
+    padding: 10px;
+    list-style: none;
+    padding-bottom: 10px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 10px;
+}
+
+nav ul li {
+    margin: 30px;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    font-family: 'poppins', sans-serif;
+    justify-content: space-between;
+}
+
+.tow {
+    color: #fff;
+    margin-top: 70px;
+
+}
+
+.tow h1 {
+    font-size: 100px;
+    margin-bottom: 50px;
+
+}
+
+.tow h3 {
+    font-size: 80px;
+    margin-left: 25px;
+}
+.map{
+    background-image: url(img/istockphoto-1392356345-1024x1024.jpg);
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.map{
+    display: flex;
+    justify-content: center;
+
+}
+footer {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(Templete_3/image\ 9.png);
+    height: 80vh;
+}
+
+.container {
+    color: #fff;
+    display: flex;
+    padding-top: 130px;
+    justify-content: space-evenly;
+}
+
+.container .nav ul {
+    list-style: none;
+}
+
+.container ul li {
+    margin: 30px;
+}
+
+.tel {
+    text-decoration: underline;
+}
+
+.copy {
+    margin-top: 70px;
+    text-align: center;
+    color: #fff;
+}
+.link {
+    text-decoration: none;
+    color: #fff !important;
+}
+iframe{
+    padding: 50px 100px  50px 250px;
+}
